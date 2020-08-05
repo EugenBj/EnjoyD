@@ -1,0 +1,383 @@
+.hero-banner-hero-component-d {
+  background-image: url("../images/HeroBanner-Image-hero-img-1-D.jpg");
+  background-size: cover;
+}
+
+.header-header-component-d {
+  margin: auto;
+}
+
+.logo-logo {
+  height: 56px;
+  width: 112px;
+}
+
+.navigation-items-nav-group-d {
+  height: 26px;
+  width: 568px;
+  margin-left: 1%;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+.nav-item {
+  vertical-align: middle;
+}
+
+.nav-item-d-nav-items-d {
+  height: 26px;
+  width: 106px;
+}
+
+.navigation {
+  color: #FFFFFF;
+  font-family: Poppins;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+.container {
+  padding: 3% 0;
+}
+
+.container-small {
+  padding: 3%;
+  align-items: center;
+  text-align: center;
+}
+
+.bg {
+  border: none;
+  border-radius: 30px;
+  background-color: #FFFFFF;
+  margin-top: auto;
+}
+
+.cta-bg {
+  border: none;
+  border-radius: 32px;
+  background-color: #36C593;
+}
+
+.button-text {
+  color: #FFFFFF;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0;
+}
+
+.hero-items-center-d-hero-group {
+  text-align: center;
+  font-size: 1rem;
+  margin: auto;
+}
+
+.page-heading {
+  color: #FFFFFF;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.hero-banner-center {
+  color: #FFFFFF;
+  font-family: 'Poppins SemiBold', sans-serif;
+  font-weight: bold;
+  letter-spacing: 0;
+}
+
+.quisque-cursus-de-n {
+  color: #FFFFFF;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0;
+
+}
+
+.arrow-down {
+  transform: rotate(90deg);
+}
+
+.arrow-down-position {
+  text-align: center;
+}
+
+.content-area-content-listing-f {
+  font-size: 1rem;
+}
+
+.par-date {
+  color: #868686;
+  font-family: 'Poppins Medium', sans-serif;
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin-top: 20px;
+}
+
+.featured-news-item {
+  color: #454545;
+  font-family: 'Poppins Medium', sans-serif;
+  font-weight: 500;
+  letter-spacing: 0;
+  margin: 3px 0 0 0;
+}
+
+.by-sean-parker {
+  color: #454545;
+  font-family: 'Poppins Medium', sans-serif;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+.content-area-image-img-standar {
+  height: 399px;
+  width: 647px;
+}
+
+.listing-title-goes {
+  color: #454545;
+  font-family: 'Poppins SemiBold', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+@media (min-width: 1366px) {
+
+.hero-banner-hero-component-d {
+  height: 620px;
+  width: 1366px;
+  margin: auto;
+}
+
+.header-header-component-d {
+  height: 80px;
+  width: 1366px;
+  position: relative;
+  top: 20px;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.navbar-brand {
+  margin: 0;
+  padding: 0;
+}
+
+.logo-logo {
+  margin: 12px 0 12px 40px;
+}
+
+.navbar-nav {
+  width: 1216px;
+}
+
+.ml-auto {
+  margin: 0!important;
+}
+
+.nav-link {
+  padding: 0!important;
+}
+
+.navigation {
+  height: 26px;
+  width: 102.94px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.navigation-items-nav-group-d {
+  margin: 27px 0 27px 40px;
+}
+
+.nav-item-d-copy-nav-items-d {
+  height: 26px;
+  width: 106px;
+  margin-left: 65px;
+}
+
+.nav-item-position {
+  margin: 12px 0 0 331px;
+}
+.bg {
+  height: 56px;
+  width: 56px;
+}
+
+.icon-mag-icon-mag-primary {
+  height: 24px;
+  width: 24px;
+}
+
+.hero-items-center-d-hero-group {
+  margin: 84px 0 0 298px;
+  height: 245px;
+  width: 770px;
+}
+
+.page-heading {
+  height: 22px;
+  width: 125px;
+  font-size: 12px;
+  line-height: 22px;
+  margin: 3px 322.5px 0;
+}
+
+.hero-banner-center {
+  height: 56px;
+  width: 770px;
+  margin: 12px 0 0;
+  font-size: 48px;
+  line-height: 56px;
+}
+
+.quisque-cursus-de-n {
+  height: 60px;
+  width: 570px;
+  margin: 10px 100px 0;
+  padding: 0 20px;
+  font-size: 22px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.cta-bg {
+  height: 56px;
+  width: 169px;
+}
+
+.button-text {
+  height: 24px;
+  width: 98px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.icon-arrow-white-icon-arrow-ri {
+  height: 24px;
+  width: 24px;
+}
+
+.btn-position {
+  margin: 26px 300px 0 301px;
+}
+
+.arrow-down-position {
+  margin-top: 145px;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+}
+
+.container-small {
+  text-align: left;
+  padding: 0;
+}
+
+.row {
+  margin: 0;
+}
+
+.col-lg-6 {
+  padding: 0;
+}
+
+.content-area-listing-featured- {
+  height: 560px;
+  width: 1366px;
+  margin: auto;
+}
+
+.content-area-content-listing-f {
+  height: 272px;
+  width: 437px;
+  position: relative;
+  left: 98px;
+  top: 134px;
+}
+
+.par-date {
+height: 22px;
+width: 75px;
+font-size: 12px;
+line-height: 22px;
+margin: 0;
+}
+
+.listing-title-goes {
+  height: 64px;
+  width: 310px;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.date-position1 {
+  margin-top: 3px;
+}
+
+.featured-news-item {
+  height: 120px;
+  width: 437px;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.by-sean-parker {
+  height: 22px;
+  width: 270px;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.parker-position {
+  margin: 16px 0 30px 0;
+}
+
+.img-pos-middle {
+  position: relative;
+  top: 81px;
+}
+
+.content-area-listing-group {
+  height: 440px;
+  width: 1366px;
+  margin: auto;
+}
+
+.date-position2 {
+  margin: 26px 0 0 30px;
+}
+
+.listing-group-d-listing-3-col- {
+  height: 440px;
+  width: 370px;
+
+}
+
+.position-col-left {
+  position: relative;
+  left: 98px;
+}
+
+.position-col-middle {
+  left: 30px;
+}
+
+.listing-position {
+  margin: 8px 0 7px 30px;
+}
+
+.parker-position2 {
+  margin-left: 30px;
+}
+
+.image {
+  height: 200px;
+  width: 370px;
+}
+
+
+}
