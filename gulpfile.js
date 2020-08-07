@@ -1,30 +1,29 @@
-// 'use strict';
+const gulp = require('gulp');
+const sass = require('gulp-sass');
+const browserSync = require('browser-sync').create();
 
-var gulp = require('gulp');
-var sass = require('gulp-sass');
-var uglifycss = require('gulp-uglifycss');
+// compile scss into css
+function style() {
+  // 1. where is my scss file
+  return gulp.src('./scss/*.scss')
+  // 2. pass that file through sass compiler
+    .pipe(sass())
+  // 3. where do I save the cmpiled CSS?
+    .pipe(gulp.dest('./css'))
+  // 4. stream changes to all browser
+    .pipe(browserSync.stream());
+}
 
-// sass.compiler = require('node-sass');
+function watch() {
+  browserSync.init({
+    server: {
+      baseDir: './'
+    }
+  });
+  gulp.watch('./scss/*.scss', style);
+  gulp.watch('./*.html').on('change', browserSync.reload);
+  gulp.watch('./js/**/*.js').on('change', browserSync.reload);
+}
 
-gulp.task('sass', function () {
-  return gulp.src('./sass/*.sass')
-    .pipe(sass().on('error', sass.logError))
-    .pipe(gulp.dest('./css'));
-});
-
-// gulp.task('css', function () {
-//   gulp.src('./css/*.css')
-//     .pipe(uglifycss({
-//       "uglyComments": true
-//     }))
-//     .pipe(gulp.dest('./dist/'));
-// });
-
-gulp.task('run', ['sass']);
-
-gulp.task('watch', function(){
-  gulp.watch('./sass/*.sass', ['sass']);
-  // gulp.watch('./css/*.css', ['css']);
-});
-
-gulp.task('default', ['run', 'watch']);
+exports.style = style;
+exports.watch = watch;
