@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
 .hero-banner-hero-component-d {
   background-image: url("../images/HeroBanner-Image-hero-img-1-D.jpg");
   background-size: cover;
@@ -31,9 +35,17 @@
 
 .navigation {
   color: #FFFFFF;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-weight: 500;
   letter-spacing: 0;
+}
+
+.navbar-toggler {
+  border: 1px solid #fff;
+}
+
+.navbar-toggler-icon {
+  background-image: url("../images/hamburger-menu.svg");
 }
 
 .container {
@@ -57,6 +69,7 @@
   border: none;
   border-radius: 32px;
   background-color: #36C593;
+  height: 42px;
 }
 
 .button-text {
@@ -74,13 +87,13 @@
 .page-heading {
   color: #FFFFFF;
   font-family: 'Poppins', sans-serif;
-  font-weight: 600;
+  font-weight: 400;
   letter-spacing: 2px;
 }
 
 .hero-banner-center {
   color: #FFFFFF;
-  font-family: 'Poppins SemiBold', sans-serif;
+  font-family: 'Poppins Bold', sans-serif;
   font-weight: bold;
   letter-spacing: 0;
 }
@@ -88,7 +101,7 @@
 .quisque-cursus-de-n {
   color: #FFFFFF;
   font-family: 'Poppins', sans-serif;
-  font-weight: 600;
+  font-weight: 400;
   letter-spacing: 0;
 
 }
@@ -211,21 +224,20 @@
 }
 
 .hero-items-center-d-hero-group {
-  margin: 84px 0 0 298px;
+  margin: 114px 0 0 298px;
   height: 245px;
   width: 770px;
 }
 
 .page-heading {
-  height: 22px;
   width: 125px;
   font-size: 12px;
   line-height: 22px;
-  margin: 3px 322.5px 0;
+  margin: 33px 322.5px 0;
+  white-space: nowrap;
 }
 
 .hero-banner-center {
-  height: 56px;
   width: 770px;
   margin: 12px 0 0;
   font-size: 48px;
@@ -233,7 +245,6 @@
 }
 
 .quisque-cursus-de-n {
-  height: 60px;
   width: 570px;
   margin: 10px 100px 0;
   padding: 0 20px;
@@ -248,7 +259,6 @@
 }
 
 .button-text {
-  height: 24px;
   width: 98px;
   font-size: 16px;
   line-height: 24px;
@@ -260,11 +270,11 @@
 }
 
 .btn-position {
-  margin: 26px 300px 0 301px;
+  margin: 20px 300px 0 301px;
 }
 
 .arrow-down-position {
-  margin-top: 145px;
+  margin-top: 120px;
 }
 
 .container {
@@ -300,7 +310,7 @@
 }
 
 .par-date {
-height: 22px;
+/* height: 22px; */
 width: 75px;
 font-size: 12px;
 line-height: 22px;
@@ -354,7 +364,6 @@ margin: 0;
 .listing-group-d-listing-3-col- {
   height: 440px;
   width: 370px;
-
 }
 
 .position-col-left {
@@ -362,9 +371,9 @@ margin: 0;
   left: 98px;
 }
 
-.position-col-middle {
+/* .position-col-middle {
   left: 30px;
-}
+} */
 
 .listing-position {
   margin: 8px 0 7px 30px;
@@ -379,5 +388,39 @@ margin: 0;
   width: 370px;
 }
 
+@media (max-width: 992px) {
+  .navbar-expand-lg {
+    background-color: #000000;
+  }
+
+  .navigation-items-nav-group-d {
+    display: grid;
+    height: auto;
+    line-height: 42px;
+    width: auto;
+    text-align: center;
+  }
+
+  .nav-item-d-nav-items-d {
+    height: auto;
+    line-height: 42px;
+    width: auto;
+  }
+
+  .nav-item {
+    text-align: center;
+  }
+
+}
+
+@media (max-width: 600px) {
+  .featured-news-item {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .hero-items-center-d-hero-group {
+    padding-top: 32px;
+  }
 
 }
