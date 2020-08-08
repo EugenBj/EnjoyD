@@ -282,6 +282,10 @@
   padding: 0;
 }
 
+.container-fluid {
+  padding: 0;
+}
+
 .container-small {
   text-align: left;
   padding: 0;
@@ -310,7 +314,6 @@
 }
 
 .par-date {
-/* height: 22px; */
 width: 75px;
 font-size: 12px;
 line-height: 22px;
@@ -349,6 +352,7 @@ margin: 0;
 .img-pos-middle {
   position: relative;
   top: 81px;
+  right: 62px;
 }
 
 .content-area-listing-group {
@@ -366,14 +370,14 @@ margin: 0;
   width: 370px;
 }
 
-.position-col-left {
-  position: relative;
-  left: 98px;
+.wrapper {
+  width: 1200px;
+  margin: 0 98px;
 }
 
-/* .position-col-middle {
-  left: 30px;
-} */
+.position-col-middle {
+  margin-left: 20px;
+}
 
 .listing-position {
   margin: 8px 0 7px 30px;
